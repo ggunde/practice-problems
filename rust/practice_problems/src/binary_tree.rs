@@ -33,14 +33,14 @@ impl Solution {
         }
     }
 
-    pub fn inorder_traversal_iterative(root: Option<Box<TreeNode>>) -> Vec<i32> {
-        let mut result = Vec::new();
+    // pub fn inorder_traversal_iterative(root: Option<Box<TreeNode>>) -> Vec<i32> {
+    //     let mut result = Vec::new();
 
-        let mut stack: Vec<TreeNode> = Vec::new();
-        let mut current = root;
+    //     let mut stack: Vec<TreeNode> = Vec::new();
+    //     let mut current = root;
 
-        result
-    }
+    //     result
+    // }
 }
 
 #[cfg(test)]
